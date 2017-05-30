@@ -13,77 +13,16 @@
 </head>
 
 <body>
-
-    <!--header-->
-    <header class="bigheader">
-        <div class="logo">
-            <a href="#"><img src="images/logo.svg" alt="logo"></a>
-        </div>
-        <nav>
-            <ul>
-                <li class="menu">ABOUT </li>
-                <li class="menu">INSPIRATION ▾
-                    <ul>
-                        <li><a href="#">Art</a></li>
-                        <li><a href="#">Crafts</a></li>
-                        <li><a href="#">Graphic Design</a></li>
-                        <li><a href="#">Illustration</a></li>
-                        <li><a href="#">Photography</a></li>
-                        <li><a href="#">Travel</a></li>
-                    </ul>
-                </li>
-                <li class="menu">TIPS ▾
-                    <ul>
-                        <li><a href="#">Career</a></li>
-                        <li><a href="#">Freelancing</a></li>
-                        <li><a href="#">Marketing</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Self</a></li>
-                    </ul>
-                </li>
-                <li class="menu">RESOURCES ▾
-                    <ul>
-                        <li><a href="#">Assets</a></li>
-                        <li><a href="#">Books</a></li>
-                        <li><a href="#">Learning</a></li>
-                        <li><a href="#">Tools</a></li>
-                    </ul>
-                </li>
-                <li class="menu">FEATURES ▾
-                    <ul>
-                        <li><a href="#">Interviews</a></li>
-                        <li><a href="#">Studio Tours</a></li>
-                        <li><a href="#">Creative Briefs</a></li>
-                        <li><a href="#">Shopping</a></li>
-                    </ul>
-                </li>
-                <li id="search">
-                    <a href="#"><img src="images/loupe.png" alt="loupe"></a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <!--header on smaller screens-->
-    <header class="smallheader">
-        <img src="images/menu.png" id="menu" alt="menu">
-        <div class="logo">
-            <a href="#"><img src="images/logo.svg" alt="logo"></a>
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#"><img src="images/loupe.png" alt="loupe" class="display"> </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
+<header class = "bigheader">
+    <?php 
+    include('headercrea.php');
+    ?>
+</header>
     <!--lead article-->
     <section class="banniere">
         <a href="http://www.creativeboom.com/inspiration/a-creatives-guide-to-new-york-city/">
-        <h2>A creative's guide to New York City</h2>
-        <p>19th April in <a href="#">Inspiration / Graphic Design</a></p>
+            <h2>A creative's guide to New York City</h2>
+            <p>19th April in <a href="#">Inspiration / Graphic Design</a></p>
         </a>
     </section>
 
@@ -107,7 +46,7 @@
             <a href="#"><img src="images/article3.jpg" alt="bureau"></a>
             <div="legende">
                 <p>Fleet Collective's factory-inspired identity for Dundee Design Festival is open source for you to play with
-                    </p>
+                </p>
                 <p class="date"> 19th April in <a href="#">Inspiration / Graphic Design</a> </p>
                 </div>
         </article>
@@ -297,22 +236,9 @@
 
     <!--footer-->
     <footer>
-        <div class="mentionslegales">
-            <img src="images/avatar.svg" alt="avatar" class="avatar">
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Advertising &amp; Partnerships</a></li>
-                <li><a href="#">How to Get Featured</a></li>
-                <li><a href="#">Archive</a></li>
-                <li><a href="#">Privacy</a></li>
-            </ul>
-            <p class="apropos">Creative Boom celebrates, inspires and supports the creative community.<br/> Launched in 2009, we love to explore
-                the very best creativity and offer tips, <br/>resources and advice to help you succeed.
-            </p>
-            <p class="copyright">©2016 Creative Boom Ltd. Registered in England and Wales #07437294.</p>
-            <p class="creator">Created by Boomerang PR</p>
-        </div>
+    <?php 
+    include('footercrea.php');
+    ?>
     </footer>
 </body>
 
